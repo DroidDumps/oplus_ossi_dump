@@ -1,0 +1,19 @@
+<oplus-config>
+    <!--LiFenfen@CONNECTIVITY.WIFI.HARDWARE.SAR.TXDUTY.6535627, 2024/01/06, Add for wifi SAR tx/idle function to raise tx power -->
+    <oplus-feature name="oplus.software.wlan.sar.txduty" />
+
+    <!-- Dengyanhui@CONNECTIVITY.WIFI.HARDWARE.ATPC, 2023/6/09,add for atpc   -->
+    <oplus-feature name="oplus.software.wlan.atpc" />
+
+    <!-- ZhaoXiang@CONNECTIVITY.WIFI.CONNECT.SMARTWIFI.3055896, 2022/2/25, Add for network switch between wifi and cell -->
+    <oplus-feature name="oplus.software.wlan.seamless_switch" />
+
+    <!-- ZhengDeng@CONNECTIVITY.WIFI.BASIC.P2P.3615099, 2022/09/15, add for AP-GC CONNECT -->
+    <oplus-feature name="oplus.software.wlan.ap_gc_connect" />
+
+    <!-- Zhouhuiquan@CONNECTIVITY.WIFI.CONNECT.3574191, 2022/10/20, Add for wifi connection self cure v3 -->
+    <oplus-feature name="oplus.software.wlan.connection_selfcure_v3" />
+
+    <!-- DengJialing@CONNECTIVITY.WIFI.CONNECT.7566499,2024/09/20, Add for net optimize feature-->
+    <oplus-feature name="oplus.software.wlan.change_rssi_polling_interval" />
+</oplus-config>

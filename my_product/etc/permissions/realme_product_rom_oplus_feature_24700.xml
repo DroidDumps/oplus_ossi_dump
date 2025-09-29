@@ -1,0 +1,10 @@
+<oplus-config>
+    <!--lightos start-->
+    <oplus-feature name="oplus.software.multiuser_entry_disabled"/>
+    <oplus-feature name="oplus.software.windowanimaiton.light" />
+    <oplus-feature name="oplus.smartdrive.disable.smartdrive" />
+    <!--增加最大可开启应用分身数量-->
+    <oplus-feature name="oplus.software.multiapp_max_open_number_limited" />
+    <!--lightos end-->
+
+</oplus-config>

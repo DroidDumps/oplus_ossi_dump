@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<filter-conf>
+  <version>20240413</version>
+  <isOpen>true</isOpen>
+  <filter-name>Multimedia_Daemon_Ext_List</filter-name>
+    <mtkomx-color-convert>
+        <name>com.heytap.yoli</name>
+        <attribute>null</attribute>
+        <name>com.coloros.gallery3d</name>
+        <attribute>null</attribute>
+        <name>com.android.chrome</name>
+        <attribute>null</attribute>
+        <name>com.tencent.qqlive</name>
+        <attribute>null</attribute>
+        <name>com.sonyliv</name>
+        <attribute>null</attribute>
+        <name>com.graymatrix.did</name>
+        <attribute>null</attribute>
+        <name>in.startv.hotstar</name>
+        <attribute>null</attribute>
+        <name>com.jio.media.ondemand</name>
+        <attribute>null</attribute>
+        <name>com.amazon.avod.thirdpartyclient</name>
+        <attribute>null</attribute>
+        <name>com.watcho</name>
+        <attribute>null</attribute>
+        <name>com.amazon.minitv.android.app</name>
+        <attribute>null</attribute>
+        <name>com.discoveryplus.mobile.android</name>
+        <attribute>null</attribute>
+        <name>com.lionsgateplay.videoapp</name>
+        <attribute>null</attribute>
+        <name>com.google.android.youtube</name>
+        <attribute>null</attribute>
+    </mtkomx-color-convert>
+    <media-sched-boost>
+        <name>com.smile.gifmaker</name>
+        <attribute>sched=4,isEncoder=0</attribute>
+    </media-sched-boost>
+    <decrease-volume-for-temp>
+        <name>com.dts.freefiremax</name>
+        <attribute>10-2-10800-1</attribute>
+
+        <name>com.ss.android.ugc.trilm</name>
+        <attribute>10-2-10800-1</attribute>
+
+        <name>com.ss.android.ugc.trill</name>
+        <attribute>10-2-10800-1</attribute>
+
+        <name>com.zhiliaoapp.musically.go</name>
+        <attribute>10-2-10800-1</attribute>
+
+        <name>com.zhiliaoapp.musically</name>
+        <attribute>10-2-10800-1</attribute>
+
+        <name>com.tencent.tmgp.sgame</name>
+        <attribute>10-2-10800-1</attribute>
+
+        <name>com.mobile.legends</name>
+        <attribute>10-2-10800-1</attribute>
+    </decrease-volume-for-temp>
+</filter-conf>

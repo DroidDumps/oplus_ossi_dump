@@ -1,0 +1,203 @@
+[
+  {
+    "inspirationTypeName": "templates_entry",
+    "templates": [
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"timeFamilyName\\\":\\\"sans-serif\\\",\\\"timeFontWeight\\\":500}\",\"pkg\":\"com.oplus.keyguard.clock.base\"}",
+        "wallpaper": "color_os/color_os_wallpaper_2.webp",
+        "aiImage": "color_os/color_os_wallpaper_ai_2.webp",
+        "previewSimplified": "color_os/color_os_preview_2.webp",
+        "previewTraditional": "color_os/color_os_preview_traditional_2.webp",
+        "previewEng": "color_os/color_os_preview_eng_2.webp",
+        "inspirationThemeName": "classical"
+      },
+      {
+        "clockInfo": "{\"pkg\":\"com.oplus.keyguard.clock.magazine\",\"clockStyleConfig\":\"{\\\"materialResColoringType\\\":2,\\\"materialResIndex\\\":1,\\\"materialResTintColor\\\":-1,\\\"materialResTintColorDepthHSL\\\":[0.0,0.0,0.0],\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"extraMessageType\\\":0,\\\"primaryColor\\\":-1,\\\"primaryColorDepthHSL\\\":[0.0,0.0,0.0],\\\"timeFamilyName\\\":\\\"NuovoRomaSerif.ttf\\\",\\\"timeFontWeight\\\":600}\"}",
+        "wallpaper": "calm/calm_wallpaper_3.webp",
+        "aiImage": "",
+        "previewSimplified": "calm/calm_preview_3.webp",
+        "previewTraditional": "calm/calm_preview_traditional_3.webp",
+        "previewEng": "calm/calm_preview_eng_3.webp",
+        "inspirationThemeName": "fashion"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"primaryColor\\\":-1,\\\"timeFamilyName\\\":\\\"\\\",\\\"timeFontWeight\\\":600,\\\"extraMessageType\\\":2}\",\"pkg\":\"com.oplus.keyguard.clock.gallery\"}",
+        "wallpaper": "blossoms/blossoms_wallpaper_2.webp",
+        "aiImage": "blossoms/blossoms_wallpaper_ai_2.webp",
+        "difference": "{\"colorGradientStart\": \"#246C99\",\"colorGradientEnd\": \"#4AA1D7\",\"middle\":\"photo_frame/circlesuperposition/photo_frame_depth_circlesuperposition.svg\",\"sticky\": \"photo_frame/circlesuperposition/photo_frame_sticky_circlesuperposition.svg\",\"defaultIndex\":2,\"shape\":\"photo_frame/circlesuperposition/photo_frame_shape_circlesuperposition.svg\",\"shapeDark\":\"photo_frame/circlesuperposition/photo_frame_shape_dark_circlesuperposition.svg\",\"width\":320,\"height\":454,\"marginTop\":235}",
+        "previewSimplified": "blossoms/blossoms_preview_2.webp",
+        "previewTraditional": "blossoms/blossoms_preview_traditional_2.webp",
+        "previewEng": "blossoms/blossoms_preview_eng_2.webp",
+        "inspirationThemeName": "photo_frame"
+      }
+    ]
+  },
+  {
+    "inspirationTypeName": "color_os",
+    "templates": [
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"timeFamilyName\\\":\\\"sans-serif\\\",\\\"timeFontWeight\\\":500}\",\"pkg\":\"com.oplus.keyguard.clock.base\"}",
+        "wallpaper": "color_os/color_os_wallpaper_1.webp",
+        "aiImage": "color_os/color_os_wallpaper_ai_1.webp",
+        "previewSimplified": "color_os/color_os_preview_1.webp",
+        "previewTraditional": "color_os/color_os_preview_traditional_1.webp",
+        "previewEng": "color_os/color_os_preview_eng_1.webp",
+        "inspirationThemeName": "classical"
+      },
+      {
+        "clockInfo": "{\"pkg\":\"com.oplus.keyguard.clock.magazine\",\"clockStyleConfig\":\"{\\\"materialResColoringType\\\":2,\\\"materialResIndex\\\":1,\\\"materialResTintColor\\\":-1,\\\"materialResTintColorDepthHSL\\\":[0.0,0.0,0.0],\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"extraMessageType\\\":0,\\\"primaryColor\\\":-1,\\\"primaryColorDepthHSL\\\":[0.0,0.0,0.0],\\\"timeFamilyName\\\":\\\"NuovoRomaSerif.ttf\\\",\\\"timeFontWeight\\\":600}\"}",
+        "wallpaper": "color_os/color_os_wallpaper_2.webp",
+        "aiImage": "color_os/color_os_wallpaper_ai_2.webp",
+        "previewSimplified": "color_os/color_os_preview_2.webp",
+        "previewTraditional": "color_os/color_os_preview_traditional_2.webp",
+        "previewEng": "color_os/color_os_preview_eng_2.webp",
+        "inspirationThemeName": "classical"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"timeFamilyName\\\":\\\"sans-serif\\\",\\\"timeFontWeight\\\":500}\",\"pkg\":\"com.oplus.keyguard.clock.base\"}",
+        "wallpaper": "color_os/color_os_wallpaper_3.webp",
+        "aiImage": "color_os/color_os_wallpaper_ai_3.webp",
+        "previewSimplified": "color_os/color_os_preview_3.webp",
+        "previewTraditional": "color_os/color_os_preview_traditional_3.webp",
+        "previewEng": "color_os/color_os_preview_eng_3.webp",
+        "inspirationThemeName": "classical"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"timeFamilyName\\\":\\\"sans-serif\\\",\\\"timeFontWeight\\\":500}\",\"pkg\":\"com.oplus.keyguard.clock.base\"}",
+        "wallpaper": "color_os/color_os_wallpaper_4.webp",
+        "aiImage": "color_os/color_os_wallpaper_ai_4.webp",
+        "previewSimplified": "color_os/color_os_preview_4.webp",
+        "previewTraditional": "color_os/color_os_preview_traditional_4.webp",
+        "previewEng": "color_os/color_os_preview_eng_4.webp",
+        "inspirationThemeName": "classical"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"timeFamilyName\\\":\\\"sans-serif\\\",\\\"timeFontWeight\\\":500}\",\"pkg\":\"com.oplus.keyguard.clock.base\"}",
+        "wallpaper": "color_os/color_os_wallpaper_5.webp",
+        "aiImage": "color_os/color_os_wallpaper_ai_5.webp",
+        "previewSimplified": "color_os/color_os_preview_5.webp",
+        "previewTraditional": "color_os/color_os_preview_traditional_5.webp",
+        "previewEng": "color_os/color_os_preview_eng_5.webp",
+        "inspirationThemeName": "classical"
+      }
+    ]
+  },
+  {
+    "inspirationTypeName": "mountain",
+    "templates": [
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"timeFamilyName\\\":\\\"sans-serif\\\",\\\"timeFontWeight\\\":500}\",\"pkg\":\"com.oplus.keyguard.clock.base\"}",
+        "wallpaper": "mountain/mountain_wallpaper_1.webp",
+        "aiImage": "mountain/mountain_wallpaper_ai_1.webp",
+        "previewSimplified": "mountain/mountain_preview_1.webp",
+        "previewTraditional": "mountain/mountain_preview_traditional_1.webp",
+        "previewEng": "mountain/mountain_preview_eng_1.webp",
+        "inspirationThemeName": "classical"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"timeFamilyName\\\":\\\"sans-serif\\\",\\\"timeFontWeight\\\":500}\",\"pkg\":\"com.oplus.keyguard.clock.base\"}",
+        "wallpaper": "mountain/mountain_wallpaper_2.webp",
+        "aiImage": "mountain/mountain_wallpaper_ai_2.webp",
+        "previewSimplified": "mountain/mountain_preview_2.webp",
+        "previewTraditional": "mountain/mountain_preview_traditional_2.webp",
+        "previewEng": "mountain/mountain_preview_eng_2.webp",
+        "inspirationThemeName": "classical"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"timeFamilyName\\\":\\\"sans-serif\\\",\\\"timeFontWeight\\\":500}\",\"pkg\":\"com.oplus.keyguard.clock.base\"}",
+        "wallpaper": "mountain/mountain_wallpaper_3.webp",
+        "aiImage": "mountain/mountain_wallpaper_ai_3.webp",
+        "previewSimplified": "mountain/mountain_preview_3.webp",
+        "previewTraditional": "mountain/mountain_preview_traditional_3.webp",
+        "previewEng": "mountain/mountain_preview_eng_3.webp",
+        "inspirationThemeName": "classical"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"timeFamilyName\\\":\\\"sans-serif\\\",\\\"timeFontWeight\\\":500}\",\"pkg\":\"com.oplus.keyguard.clock.base\"}",
+        "wallpaper": "mountain/mountain_wallpaper_4.webp",
+        "aiImage": "mountain/mountain_wallpaper_ai_4.webp",
+        "previewSimplified": "mountain/mountain_preview_4.webp",
+        "previewTraditional": "mountain/mountain_preview_traditional_4.webp",
+        "previewEng": "mountain/mountain_preview_eng_4.webp",
+        "inspirationThemeName": "classical"
+      }
+    ]
+  },
+  {
+    "inspirationTypeName": "calm",
+    "templates": [
+      {
+        "clockInfo": "{\"pkg\":\"com.oplus.keyguard.clock.magazine\",\"clockStyleConfig\":\"{\\\"materialResColoringType\\\":2,\\\"materialResIndex\\\":7,\\\"materialResTintColor\\\":-1,\\\"materialResTintColorDepthHSL\\\":[0.0,0.0,0.0],\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"extraMessageType\\\":0,\\\"primaryColor\\\":-1,\\\"primaryColorDepthHSL\\\":[0.0,0.0,0.0],\\\"timeFamilyName\\\":\\\"NuovoRomaSerif.ttf\\\",\\\"timeFontWeight\\\":600}\"}",
+        "wallpaper": "calm/calm_wallpaper_1.webp",
+        "aiImage": "",
+        "previewSimplified": "calm/calm_preview_1.webp",
+        "previewTraditional": "calm/calm_preview_traditional_1.webp",
+        "previewEng": "calm/calm_preview_eng_1.webp",
+        "inspirationThemeName": "fashion"
+      },
+      {
+        "clockInfo": "{\"pkg\":\"com.oplus.keyguard.clock.magazine\",\"clockStyleConfig\":\"{\\\"materialResColoringType\\\":2,\\\"materialResIndex\\\":5,\\\"materialResTintColor\\\":-1,\\\"materialResTintColorDepthHSL\\\":[0.0,0.0,0.0],\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"extraMessageType\\\":0,\\\"primaryColor\\\":-1,\\\"primaryColorDepthHSL\\\":[0.0,0.0,0.0],\\\"timeFamilyName\\\":\\\"NuovoRomaSerif.ttf\\\",\\\"timeFontWeight\\\":600}\"}",
+        "wallpaper": "calm/calm_wallpaper_4.webp",
+        "aiImage": "",
+        "previewSimplified": "calm/calm_preview_4.webp",
+        "previewTraditional": "calm/calm_preview_traditional_4.webp",
+        "previewEng": "calm/calm_preview_eng_4.webp",
+        "inspirationThemeName": "fashion"
+      },
+      {
+        "clockInfo": "{\"pkg\":\"com.oplus.keyguard.clock.magazine\",\"clockStyleConfig\":\"{\\\"materialResColoringType\\\":2,\\\"materialResIndex\\\":1,\\\"materialResTintColor\\\":-1,\\\"materialResTintColorDepthHSL\\\":[0.0,0.0,0.0],\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"extraMessageType\\\":0,\\\"primaryColor\\\":-1,\\\"primaryColorDepthHSL\\\":[0.0,0.0,0.0],\\\"timeFamilyName\\\":\\\"NuovoRomaSerif.ttf\\\",\\\"timeFontWeight\\\":600}\"}",
+        "wallpaper": "calm/calm_wallpaper_3.webp",
+        "aiImage": "",
+        "previewSimplified": "calm/calm_preview_3.webp",
+        "previewTraditional": "calm/calm_preview_traditional_3.webp",
+        "previewEng": "calm/calm_preview_eng_3.webp",
+        "inspirationThemeName": "fashion"
+      }
+    ]
+  },
+  {
+    "inspirationTypeName": "blossoms",
+    "templates": [
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"primaryColor\\\":-1,\\\"timeFamilyName\\\":\\\"\\\",\\\"timeFontWeight\\\":600,\\\"extraMessageType\\\":2}\",\"pkg\":\"com.oplus.keyguard.clock.gallery\"}",
+        "wallpaper": "blossoms/blossoms_wallpaper_1.webp",
+        "aiImage": "blossoms/blossoms_wallpaper_ai_1.webp",
+        "difference": "{\"colorGradientStart\": \"#607952\",\"colorGradientEnd\": \"#93AD85\",\"middle\":\"photo_frame/leftsemicircle/photo_frame_depth_leftsemicircle.svg\",\"sticky\": \"photo_frame/leftsemicircle/photo_frame_sticky_leftsemicircle.svg\",\"defaultIndex\":3,\"shape\":\"photo_frame/leftsemicircle/photo_frame_shape_leftsemicircle.svg\",\"shapeDark\":\"photo_frame/leftsemicircle/photo_frame_shape_dark_leftsemicircle.svg\",\"width\":314,\"height\":454,\"marginTop\":235}",
+        "previewSimplified": "blossoms/blossoms_preview_1.webp",
+        "previewTraditional": "blossoms/blossoms_preview_traditional_1.webp",
+        "previewEng": "blossoms/blossoms_preview_eng_1.webp",
+        "inspirationThemeName": "photo_frame"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"primaryColor\\\":-1,\\\"timeFamilyName\\\":\\\"\\\",\\\"timeFontWeight\\\":600,\\\"extraMessageType\\\":2}\",\"pkg\":\"com.oplus.keyguard.clock.gallery\"}",
+        "wallpaper": "blossoms/blossoms_wallpaper_2.webp",
+        "aiImage": "blossoms/blossoms_wallpaper_ai_2.webp",
+        "difference": "{\"colorGradientStart\": \"#246C99\",\"colorGradientEnd\": \"#4AA1D7\",\"middle\":\"photo_frame/circlesuperposition/photo_frame_depth_circlesuperposition.svg\",\"sticky\": \"photo_frame/circlesuperposition/photo_frame_sticky_circlesuperposition.svg\",\"defaultIndex\":2,\"shape\":\"photo_frame/circlesuperposition/photo_frame_shape_circlesuperposition.svg\",\"shapeDark\":\"photo_frame/circlesuperposition/photo_frame_shape_dark_circlesuperposition.svg\",\"width\":320,\"height\":454,\"marginTop\":235}",
+        "previewSimplified": "blossoms/blossoms_preview_2.webp",
+        "previewTraditional": "blossoms/blossoms_preview_traditional_2.webp",
+        "previewEng": "blossoms/blossoms_preview_eng_2.webp",
+        "inspirationThemeName": "photo_frame"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"primaryColor\\\":-1,\\\"timeFamilyName\\\":\\\"\\\",\\\"timeFontWeight\\\":600,\\\"extraMessageType\\\":2}\",\"pkg\":\"com.oplus.keyguard.clock.gallery\"}",
+        "wallpaper": "blossoms/blossoms_wallpaper_3.webp",
+        "aiImage": "blossoms/blossoms_wallpaper_ai_3.webp",
+        "difference": "{\"colorGradientStart\": \"#AC2B0D\",\"colorGradientEnd\": \"#F05431\",\"middle\":\"photo_frame/leftsemicircle/photo_frame_depth_leftsemicircle.svg\",\"sticky\": \"photo_frame/leftsemicircle/photo_frame_sticky_leftsemicircle.svg\",\"defaultIndex\":3,\"shape\":\"photo_frame/leftsemicircle/photo_frame_shape_leftsemicircle.svg\",\"shapeDark\":\"photo_frame/leftsemicircle/photo_frame_shape_dark_leftsemicircle.svg\",\"width\":314,\"height\":454,\"marginTop\":235}",
+        "previewSimplified": "blossoms/blossoms_preview_3.webp",
+        "previewTraditional": "blossoms/blossoms_preview_traditional_3.webp",
+        "previewEng": "blossoms/blossoms_preview_eng_3.webp",
+        "inspirationThemeName": "photo_frame"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"primaryColor\\\":-1,\\\"timeFamilyName\\\":\\\"\\\",\\\"timeFontWeight\\\":600,\\\"extraMessageType\\\":2}\",\"pkg\":\"com.oplus.keyguard.clock.gallery\"}",
+        "wallpaper": "blossoms/blossoms_wallpaper_4.webp",
+        "aiImage": "blossoms/blossoms_wallpaper_ai_4.webp",
+        "difference": "{\"colorGradientStart\": \"#BB4501\",\"colorGradientEnd\": \"#FD7222\",\"middle\": \"photo_frame/diamond/photo_frame_depth_diamond.svg\",\"sticky\": \"photo_frame/diamond/photo_frame_sticky_diamond.svg\",\"defaultIndex\":4,\"shape\":\"photo_frame/diamond/photo_frame_shape_diamond.svg\",\"shapeDark\":\"photo_frame/diamond/photo_frame_shape_dark_diamond.svg\",\"width\":312,\"height\":416,\"marginTop\":248}",
+        "previewSimplified": "blossoms/blossoms_preview_4.webp",
+        "previewTraditional": "blossoms/blossoms_preview_traditional_4.webp",
+        "previewEng": "blossoms/blossoms_preview_eng_4.webp",
+        "inspirationThemeName": "photo_frame"
+      }
+    ]
+  }
+]

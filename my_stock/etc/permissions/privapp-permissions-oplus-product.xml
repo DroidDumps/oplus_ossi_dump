@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<privapp-permissions package="com.oplus.mediaturbo">
+		<permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
+		<permission name="android.permission.INTERACT_ACROSS_USERS"/>
+		<permission name="android.permission.REAL_GET_TASKS"/>
+	</privapp-permissions>
+	<privapp-permissions package="com.oplus.calendar">
+		<permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+		<permission name="android.permission.INTERACT_ACROSS_USERS"/>
+	</privapp-permissions>
+	<privapp-permissions package="com.oplus.screenrecorder">
+		<permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+	</privapp-permissions>
+	<privapp-permissions package="com.oplus.wallpapers">
+		<permission name="android.permission.READ_WALLPAPER_INTERNAL"/>
+		<permission name="android.permission.SET_WALLPAPER_COMPONENT"/>
+		<permission name="android.permission.CHANGE_CONFIGURATION"/>
+	</privapp-permissions>
+	<privapp-permissions package="com.android.mms">
+		<permission name="android.permission.TURN_SCREEN_ON"/>
+	</privapp-permissions>
+	<privapp-permissions package="com.coloros.translate.engine">
+		<permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+	</privapp-permissions>
+	<privapp-permissions package="com.oplus.games">
+		<permission name="android.permission.BIND_APPWIDGET"/>
+	</privapp-permissions>
+</permissions>
+<!-- Timestamp 2025-06-20T17:29:04 #479643fb-58ef-4de3-a127-f782f4a5c752 -->

@@ -1,0 +1,62 @@
+[
+    {
+        "filter_name":"sys_perf_config"
+    },
+    {
+        "version":20231127
+    },
+    {
+        "scroll_animation_opt":true,
+        "pre_anim_strategy":1,
+        "pre_anim_blacklist":[
+            "com.kyk.world"
+        ],
+        "pre_anim_whitelist":[
+
+        ],
+        "frame_insert_default_num":1,
+        "frame_insert_list":{
+            "com.sina.weibo": {
+                "com.sina.weibo.VisitorMainTabActivity": 3
+            },
+            "com.taobao.idlefish": {
+                "com.taobao.idlefish.maincontainer.activity.MainActivity": 3
+            },
+            "com.lazada.android":{
+               "com.lazada.activities.EnterActivity":3
+            },
+            "com.shopee.id":{
+               "com.shopee.app.ui.home.HomeActivity":3
+            },
+            "com.instagram.android":{
+               "com.instagram.mainactivity.InstagramMainActivity":3
+            },
+            "com.facebook.katana":{
+               "com.facebook.katana.LoginActivity":3
+            },
+            "com.alibaba.intl.android.apps.poseidon":{
+               "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityMainMaterial":3
+            },
+            "com.google.android.youtube":{
+               "com.google.android.apps.youtube.app.watchwhile.InternalWatchWhileActivity":3
+            },
+            "com.twitter.android":{
+               "com.twitter.app.main.MainActivity":3
+            },
+            "com.whatsapp":{
+               "com.whatsapp.Conversation":3
+            }
+        },
+        "scroll_changed_enable_list":{
+            "com.taobao.idlefish": [
+                "com.taobao.idlefish.maincontainer.activity.MainActivity"
+            ],
+            "com.sankuai.meituan": [
+                "com.meituan.android.pt.homepage.activity.MainActivity"
+            ],
+            "com.tencent.mobileqq": [
+                "com.qzone.feed.ui.activity.QZoneFriendFeedActivity"
+            ]
+        }
+    }
+]

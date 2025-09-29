@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.settings.vending_detail_url" args="String:https://play.google.com/store/apps/details?id="/>
+	<app_feature name="com.android.systemui.mini_capsule_grab_support"/>
+</extend_features>
+<!-- Timestamp 2025-02-25T12:15:33 #ee3815c0-c7fa-4a6c-9fa5-edc440e3886d -->

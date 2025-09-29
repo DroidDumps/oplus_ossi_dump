@@ -1,0 +1,35 @@
+<!-- resolutionID的值，智能切换为1,低分辨率为2，高分辨率为3 -->
+<!-- idmask = 1 左移 resolutionID值的结果  -->
+<!-- 不支持分辨率切换的机器，只有智能模式生效 -->
+<!-- 固定density的app不能添加到智能分辨率名单中  -->
+<!--Display Compat mode-->
+<sys_resolution_switch_config version="20240923" filemagic="androidU" screenwidth="1080" >
+<!-- 1080 * 0.75 = 720,480 * 0.75 = 320 -->
+<scaleinfo value="1.5,0.666667,320" />
+<item package="com.supercell.brawlstars" idmask="1010" />
+<item package="com.wildspike.wormszone" idmask="1010" />
+<item package="jp.konami.pesam" idmask="1010" />
+<item package="com.fingersoft.hillclimb" idmask="1010" />
+<item package="com.playmini.miniworld.ow" idmask="1010" />
+<item package="com.supercell.clashroyale" idmask="1010" />
+<item package="com.axlebolt.standoff2" idmask="1010" />
+<item package="com.supercell.clashofclans" idmask="1010" />
+<item package="com.imangi.templerun" idmask="1010" />
+<item package="com.kitkagames.fallbuddies" idmask="1010" />
+<item package="com.gameloft.android.ANMP.GloftA9HM" idmask="1010" />
+<item package="com.ea.gp.fifamobile" idmask="1010" />
+<item package="com.youmusic.magictiles" idmask="1010" />
+<item package="com.kiloo.subwaysurf" idmask="1010" originscalemode="true" />
+<item package="com.miniclip.eightballpool" idmask="1010" />
+<item package="com.king.candycrushsaga" idmask="1010" />
+<item package="com.miHoYo.GenshinImpact" idmask="1010" originscalemode="true" />
+<item package="com.tencent.ig" idmask="1010" />
+<item package="com.pubg.imobile" idmask="1010" />
+<item package="com.riotgames.league.wildrift" idmask="1010" />
+<item package="com.mobile.legends" idmask="1010" />
+<item package="com.dts.freefireth" idmask="1010" />
+<item package="com.ngame.allstar.eu" idmask="1010" />
+<item package="com.playmini.miniworld" idmask="1010" />
+<item package="com.garena.game.codm" idmask="1010" />
+<item package="com.dts.freefiremax" idmask="1010" />
+</sys_resolution_switch_config>

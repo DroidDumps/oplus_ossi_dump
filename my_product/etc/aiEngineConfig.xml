@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <!--function for rom update parameter-->
+    <version>2024102100</version>
+    <isOpen>1</isOpen>
+    <filter-name>sys_aiengine_config</filter-name>
+    <switch name="total_switch" value="1"/>
+    <switch name="skip_frame_switch" value="1"/>
+    <switch name="uah_switch" value="1"/>
+    <switch name="gfx_switch" value="0"/>
+    <switch name="upload_switch" value="0"/>
+    <switch name="fast_restart" value="1"/>
+
+
+    <!--<execute name="sqlitectrl" value="3"></execute> -->
+    <param name="MAX_EXPLORATION" value="3"/>
+    <param name="MAX_EXPLOITATION" value="9"/>
+    <param name="JUNK_THRESHHOLD" value="0.1"/>
+    <param name="PARAM_POWER" value="1"/>
+    <param name="PARAM_SMALL_CORE_POWER_SCORE" value="6"/>
+    <param name="PARAM_BIG_CORE_POWER_SCORE" value="2"/>
+    <param name="PARAM_PERFORMANCE" value="3"/>
+    <param name="PARAM_PERFORMANCE_RATE" value="2"/>
+    <param name="PARAM_SMALL_CORE_LOW_FREQ" value="12"/>
+    <param name="PARAM_BIG_CORE_LOW_FREQ" value="5"/>
+    <param name="PARAM_SMALL_CORE_MAX_FREQ" value="1"/>
+    <param name="PARAM_BIG_CORE_MAX_FREQ" value="6"/>
+    <param name="IN_VALID_DAYS_HOLD" value="1"/>
+    <param name="MAX_FOLDERS" value="30"/>
+    <param name="FOLDERS_TO_DELETE" value="6"/>
+    <param name="LIMIT_UAH_JSON_FILE" value="100"/>
+    <param name="LIMIT_GFX_JSON_FILE" value="100"/>
+    <param name="RAM_BASE" value="5"/>
+    <param name="DEFAULT_DEBUG_LEVEL" value="2" />
+
+    <!-- fast_restart -->
+    <param name="RAM_6_LOWER_MEM_TARGET" value="1200" />
+    <param name="RAM_6_LIMIT_MEM_TARGET" value="1700" />
+    <param name="RAM_8_LOWER_MEM_TARGET" value="1500" /> 
+    <param name="RAM_8_LIMIT_MEM_TARGET" value="2600" />
+    <param name="RAM_12_LOWER_MEM_TARGET" value="2200" /> 
+    <param name="RAM_12_LIMIT_MEM_TARGET" value="3800" /> 
+    <param name="PROCESS_RESTART_TIMEOUT" value="10000" />
+    <param name="LIMIT_6_PKG_NUM" value="1" />
+    <param name="LIMIT_8_PKG_NUM" value="3" />
+    <param name="LIMIT_12_PKG_NUM" value="5" />
+
+
+    <blackPkg pkgName="com.android.launcher"/>
+    <blackPkg pkgName="com.android.systemui"/>
+    <blackPkg pkgName="com.google.android.dialer"/>
+    <blackPkg pkgName="com.google.android.gms" />
+    <blackPkg pkgName="com.google.android.gms.ui"/>
+    <blackPkg pkgName="com.google.android.setupwizard"/>
+    <blackPkg pkgName="com.google.android.googlequicksearchbox"/>
+    <blackPkg pkgName="com.oplus.camera"/>
+    <blackPkg pkgName="com.oplus.battery"/>
+    <blackPkg pkgName="com.oplus.battery:ui"/>
+    <blackPkg pkgName="com.oplus.engineermode"/>
+    <blackPkg pkgName="com.oplus.wirelesssettings"/>
+    <blackPkg pkgName="com.oplus.ota"/>
+    <blackPkg pkgName="com.android.settings"/><!--设置-->
+    <blackPkg pkgName="com.coloros.note"/> <!--便签-->
+    <blackPkg pkgName="com.coloros.calendar"/> <!--日历-->
+    <blackPkg pkgName="com.coloros.calculator"/> <!--计算器-->
+    <blackPkg pkgName="com.coloros.alarmclock"/> <!--时钟-->
+    <blackPkg pkgName="com.coloros.weather2"/> <!--天气-->
+    <blackPkg pkgName="com.coloros.backuprestore"/> <!--手机搬家-->
+    <blackPkg pkgName="com.coloros.compass2"/> <!--指南针-->
+    <blackPkg pkgName="com.coloros.soundrecorder"/> <!--录音-->
+    <blackPkg pkgName="com.coloros.weather"/> <!--Weather-->
+    <blackPkg pkgName="com.nearme.note"/> <!--便签-->
+    <blackPkg pkgName="com.nearme.themestore"/> <!--主题商店-->
+    <blackPkg pkgName="com.oplus.themestore"/> <!--themestore-->
+    <blackPkg pkgName="com.oneplus.brickmode"/> <!--brickmode-->
+    <blackPkg pkgName="com.redteamobile.roaming"/> <!--国际上网-->
+    <blackPkg pkgName="com.nearme.instant.platfor"/> <!--游戏中心-->
+    <blackPkg pkgName="com.google.android.contacts"/> <!--google contacts-->
+    <blackPkg pkgName="com.heytap.music"/> <!--OPPO音乐-->
+    <blackPkg pkgName="com.heytap.reader"/> <!--OPPO阅读-->
+    <blackPkg pkgName="com.heytap.book"/> <!--OPPO书城-->
+    <blackPkg pkgName="com.android.contacts"/> <!--oppo 系统通话-联系人/电话本-->
+    <blackPkg pkgName="com.android.mms"/> <!--oppo message-->
+    <blackPkg pkgName="com.heytap.browser"/><!--oppo 浏览器-->
+
+    <!--Top games-->
+    <blackPkg pkgName="com.mobile.legends"/> <!--MLBB-->
+    <blackPkg pkgName="com.levelinfinite.sgameGlobal.midaspay"/> <!--HOK1-->
+    <blackPkg pkgName="com.levelinfinite.sgameGlobal"/> <!--HOK2-->
+    <blackPkg pkgName="com.tencent.ig"/> <!--PUBG-->
+    <blackPkg pkgName="com.pubg.imobile"/> <!--BGMI-->
+    <blackPkg pkgName="com.dts.freefireth"/> <!--Freefire-->
+    <blackPkg pkgName="com.dts.freefiremax"/> <!--FreeFireMAX-->
+    <blackPkg pkgName="com.activision.callofduty.shooter"/> <!--COD-->
+    <blackPkg pkgName="com.miHoYo.GenshinImpact"/> <!--原神海外版-->
+    <blackPkg pkgName="com.riotgames.league.wildrift"/> <!--lolm-->
+    <blackPkg pkgName="com.tencent.tmgp.sgame"/> <!--王者荣耀-->
+    <blackPkg pkgName="com.tencent.lolm"/> <!--英雄联盟-->
+    <blackPkg pkgName="com.tencent.tmgp.pubgmhd"/> <!--和平精英-->
+    <blackPkg pkgName="com.miHoYo.Yuanshen"/> <!--原神1-->
+    <blackPkg pkgName="com.miHoYo.GenshinImpact"/> <!--原神2-->
+    <blackPkg pkgName="com.miHoYo.hkrpg"/> <!--崩铁-->
+    <blackPkg pkgName="com.tencent.tmgp.speedmobile"/> <!--QQ飞车-->
+    <blackPkg pkgName="com.tencent.tmgp.cf"/> <!--穿越火线-->
+    <blackPkg pkgName="com.tencent.mf.uam"/> <!--暗区突围-->
+</filter-conf>

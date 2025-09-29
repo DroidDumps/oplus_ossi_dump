@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf>
+    <version>2025012401</version>
+    <filter-name>sys_athena_custom_config_list</filter-name>
+	
+    <config_map key="self_dev_startup_protect_threshold" type="Long">
+		<sub key="2" val="0" />
+		<sub key="3" val="0" />
+		<sub key="4" val="0" />
+		<sub key="6" val="0" />
+		<sub key="8" val="0" />
+		<sub key="12" val="180000" />
+	</config_map>
+</filter-conf>

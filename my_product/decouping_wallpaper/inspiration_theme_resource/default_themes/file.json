@@ -1,0 +1,52 @@
+[
+  {
+    "rank": "4",
+    "type": "0",
+    "aiUnitCoreWallpaper": "inspiration_theme_templates/color_os/color_os_wallpaper_ai_2.webp",
+    "aiUnitOriginWallpaper": "color_os/color_os_wallpaper_ai_2.webp",
+    "aiUnitCoreWallpaperContours": "inspiration_theme_templates/color_os/color_os_wallpaper_ai_contours.txt",
+    "homeWallpaper": "inspiration_theme_templates/color_os/color_os_wallpaper_2.webp",
+    "lockWallpaper": "inspiration_theme_templates/color_os/color_os_wallpaper_2.webp",
+    "thumbnail": "inspiration_theme_templates/color_os/color_os_preview_2.webp",
+    "thumbnailEng": "inspiration_theme_templates/color_os/color_os_preview_eng_2.webp",
+    "thumbnailHk": "inspiration_theme_templates/color_os/color_os_preview_traditional_2.webp",
+    "aiUnitCoreWallpaperWithSupplement": ""
+  },
+  {
+    "rank": "1",
+    "type": "1",
+    "aiUnitCoreWallpaper": "inspiration_theme_templates/blossoms/blossoms_wallpaper_ai_2.webp",
+    "aiUnitOriginWallpaper": "blossoms/blossoms_wallpaper_ai_2.webp",
+    "aiUnitCoreWallpaperContours": "inspiration_theme_templates/blossoms/blossoms_wallpaper_ai_2_contours.txt",
+    "homeWallpaper": "inspiration_theme_templates/blossoms/blossoms_wallpaper_2.webp",
+    "lockWallpaper": "inspiration_theme_templates/blossoms/blossoms_wallpaper_2.webp",
+    "thumbnail": "inspiration_theme_templates/blossoms/blossoms_preview_2.webp",
+    "thumbnailEng": "inspiration_theme_templates/blossoms/blossoms_preview_eng_2.webp",
+    "thumbnailHk": "inspiration_theme_templates/blossoms/blossoms_preview_traditional_2.webp",
+    "aiUnitCoreWallpaperWithSupplement": ""
+  },
+  {
+    "rank": "3",
+    "type": "0",
+    "aiUnitCoreWallpaper": "inspiration_theme_templates/mountain/mountain_wallpaper_ai_3.webp",
+    "aiUnitOriginWallpaper": "mountain/mountain_wallpaper_ai_3.webp",
+    "aiUnitCoreWallpaperContours": "inspiration_theme_templates/mountain/mountain_wallpaper_ai_3_contours.txt",
+    "homeWallpaper": "inspiration_theme_templates/mountain/mountain_wallpaper_3.webp",
+    "lockWallpaper": "inspiration_theme_templates/mountain/mountain_wallpaper_3.webp",
+    "thumbnail": "inspiration_theme_templates/mountain/mountain_preview_3.webp",
+    "thumbnailEng": "inspiration_theme_templates/mountain/mountain_preview_eng_3.webp",
+    "thumbnailHk": "inspiration_theme_templates/mountain/mountain_preview_traditional_3.webp"
+  },
+  {
+    "rank": "0",
+    "type": "2",
+    "aiUnitCoreWallpaper": "",
+    "aiUnitOriginWallpaper": "",
+    "aiUnitCoreWallpaperContours": "",
+    "homeWallpaper": "inspiration_theme_templates/calm/calm_wallpaper_1.webp",
+    "lockWallpaper": "inspiration_theme_templates/calm/calm_wallpaper_1.webp",
+    "thumbnail": "inspiration_theme_templates/calm/calm_preview_1.webp",
+    "thumbnailEng": "inspiration_theme_templates/calm/calm_preview_eng_1.webp",
+    "thumbnailHk": "inspiration_theme_templates/calm/calm_preview_traditional_1.webp"
+  }
+]

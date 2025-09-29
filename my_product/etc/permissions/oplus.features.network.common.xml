@@ -1,0 +1,5 @@
+<oplus-config>
+    <oplus-feature name="oplus.software.radio.ntp_preferred"/>
+    <!-- ZhuNian@NETWORK.DATA, 2013/06/17, modify for OPLUS_FEATURE_HIDESMS_SYSTEMAPP -->
+    <oplus-feature name="oplus.software.radio.sms_exp"/>
+</oplus-config>

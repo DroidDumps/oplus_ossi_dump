@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<feature name="com.android.systemui.lockscreen_shortcut_settings_enable"/>
+</permissions>
+<!-- Timestamp 2024-06-07T16:19:24 #139042 -->

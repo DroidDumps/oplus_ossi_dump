@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config name="scene_event">
+    <filter-conf>
+        <version>2025010416</version>
+        <filter-name>sys_custom_osense_scene_event_config</filter-name>
+    </filter-conf>
+    <event id="6000" name="HAL_P2Thread_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableP2ThreadUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6003" name="HAL_P2Stream_Init" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableP2StreamInitUx" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6004" name="HAL_P2Stream_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableP2StreamUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6005" name="HAL_P2Streamfpipe_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableP2StreamfpipeUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6006" name="HAL_RSCThread_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableRSCThreadUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6007" name="HAL_P2Streamfpipe_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableP2StreamfpipeUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6008" name="HAL_P2amdpThread_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableP2amdpThreadUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6009" name="HAL_CameraOpen_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableCameraOpenUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6010" name="HAL_AEThread_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableAEThreadUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6011" name="HAL_AFThread_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableAFThreadUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6012" name="HAL_AWBThread_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableAWBThreadUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6013" name="HAL_RscStreamThread_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableRscStreamThreadUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6014" name="HAL_3ATHREA_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="Enable3AThreadUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6015" name="HAL_AppStream_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableAppStreamUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6016" name="HAL_AAOThread_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableAAOThreadUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6017" name="HAL_PDAFThread_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnablePDAFThreadUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6018" name="HAL_ispEnqueThread_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableispEnqueThreadUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6019" name="HAL_ispDequeThread_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableispDequeThreadUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6020" name="HAL_P1Thread_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableP1ThreadUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6021" name="HAL_ispEnqueThread_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="EnableFDThreadUX" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+    </event>
+	<event id="6022" name="HAL_FW_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_sys">
+        <key-thread name="cameraservice" owner="cameraserver_sys" sched_policy="ux" priority="HEAVY" />
+    </event>
+</config>

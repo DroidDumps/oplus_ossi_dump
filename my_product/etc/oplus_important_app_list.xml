@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20230322</version>
+    <isOpen>1</isOpen>
+    <filter-name>important_app_list</filter-name>
+    <pa>com.google.android.dialer</pa>
+</filter-conf>

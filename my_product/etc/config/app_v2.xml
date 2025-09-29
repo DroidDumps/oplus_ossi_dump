@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+    <disable pkg="com.oplus.onetrace" priority="7"  memory="6"/>
+    <disable pkg="com.oplus.qualityprotect" priority="7" memory="6"/>
+    <disable pkg="com.oplus.obrain" priority="7" memory="6"/>
+    <disable pkg="com.ses.entitlement.o2" priority="7"/>
+    <disable pkg="com.realme.wellbeing" priority="7"/>
+    <enable pkg="com.oplus.beaconlink" priority="7"/>
+</app>

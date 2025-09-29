@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<settings_provider_config>
+	<settings_item name="lcd_cabc_mode" value="3" category="system"/>
+</settings_provider_config>

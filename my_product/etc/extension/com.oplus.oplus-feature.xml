@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.view.spring_over_scroller"/>
+	<oplus-feature name="oplus.software.radio.networkless_support"/>
+	<oplus-feature name="oplus.software.uxicon_exp_square_icon"/>
+	<oplus-feature name="oplus.software.radio.nwpower_bg_app_net_control_switch_enable"/>
+	<oplus-feature name="oplus.software.radio.nwpower_linkpower"/>
+	<oplus-feature name="oplus.software.radio.comm_scene_switch_enable"/>
+	<oplus-feature name="oplus.software.radio.diagnosis_old_platform"/>
+	<oplus-feature name="oplus.software.smart_loop_drag"/>
+	<oplus-feature name="oplus.software.support_blockable_animation"/>
+	<oplus-feature name="oplus.software.adaptive_smooth_animation"/>
+	<oplus-feature name="oplus.software.support_quick_launchapp"/>
+	<oplus-feature name="oplus.software.enable_touch_preload"/>
+	<oplus-feature name="oplus.software.enable_startup_manager"/>
+	<oplus-feature name="oplus.software.enable_aiengine_v2"/>
+	<oplus-feature name="com.oplus.camera.under.water.support"/>
+	<oplus-feature name="oplus.software.camera_volume_quick_launch"/>
+</oplus-config>
+<!-- Timestamp 2025-03-07T22:54:33 #991d26d8-e9b9-4e07-b118-bd72d3378392 -->

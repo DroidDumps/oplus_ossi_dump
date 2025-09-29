@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pin_file_config_v2>
+    <!-- default -->
+    <group>
+        <item>/system/framework/arm64/boot-framework.vdex</item>
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/oat/arm64/services.vdex</item>
+        <item>/system/framework/oat/arm64/services.odex</item>
+    </group>
+
+    <group mem="4">
+    </group>
+
+    <group mem="6">
+    </group>
+
+    <group mem="8">
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+        <item>/system/framework/arm64/boot-QPerformance.oat</item>
+        <item>/system/framework/arm64/boot-UxPerformance.oat</item>
+    </group>
+
+    <group mem="12">
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+        <item>/system/framework/arm64/boot-QPerformance.oat</item>
+        <item>/system/framework/arm64/boot-UxPerformance.oat</item>
+    </group>
+</pin_file_config_v2>

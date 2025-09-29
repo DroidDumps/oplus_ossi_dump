@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app version="1.0">
+  <enable pkg="com.applovin.array.apphub.vincere" priority="9"/>
+  <del_disable pkg="com.fin.topkredit" priority="9" name="Finmart.apk"/>
+  <del_disable pkg="com.fintech.uangmudah" priority="9" name="UangMudah.apk"/>
+  <disable pkg="com.oplus.appbooster" priority="9"/>
+  <del_enable pkg="com.realmecomm.app" priority="9" name="RMCommEXP.apk"/>
+  <enable pkg="com.taboola.scoop" priority="9"/>
+</app>

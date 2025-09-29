@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>2025022801</version>
+    <isOpen>1</isOpen>
+    <filter-name>sys_touch_preload_config</filter-name>
+    <isBoost timeout="300">0</isBoost>
+
+    <black-list>
+        <blackPkg pkgName="com.spotify.musiccc"/>
+    </black-list>
+
+    <white-list>
+        <!--系统应用-->
+        <whitePkg pkgName="com.android.settings"/><!--设置-->
+        <whitePkg pkgName="com.coloros.note"/> <!--便签-->
+        <whitePkg pkgName="com.coloros.calendar"/> <!--日历-->
+        <whitePkg pkgName="com.coloros.calculator"/> <!--计算器-->
+        <whitePkg pkgName="com.coloros.alarmclock"/> <!--时钟-->
+        <whitePkg pkgName="com.coloros.weather2"/> <!--天气-->
+        <whitePkg pkgName="com.coloros.backuprestore"/> <!--手机搬家-->
+        <whitePkg pkgName="com.coloros.compass2"/> <!--指南针-->
+        <whitePkg pkgName="com.coloros.soundrecorder"/> <!--录音-->
+        <whitePkg pkgName="com.coloros.weather"/> <!--Weather-->
+        <whitePkg pkgName="com.nearme.note"/> <!--便签-->
+        <whitePkg pkgName="com.nearme.themestore"/> <!--主题商店-->
+        <whitePkg pkgName="com.oplus.themestore"/> <!--themestore-->
+        <whitePkg pkgName="com.oneplus.brickmode"/> <!--brickmode-->
+        <whitePkg pkgName="com.redteamobile.roaming"/> <!--国际上网-->
+        <whitePkg pkgName="com.nearme.instant.platfor"/> <!--游戏中心-->
+        <whitePkg pkgName="com.google.android.contacts"/> <!--google contacts-->
+        <whitePkg pkgName="com.google.android.dialer"/><!--google dialer-->
+        <whitePkg pkgName="com.google.android.apps.messaging"/>
+        <whitePkg pkgName="com.heytap.music"/> <!--OPPO音乐-->
+        <whitePkg pkgName="com.heytap.reader"/> <!--OPPO阅读-->
+        <whitePkg pkgName="com.heytap.book"/> <!--OPPO书城-->
+        <whitePkg pkgName="com.android.contacts"/> <!--oppo 系统通话-联系人/电话本-->
+        <whitePkg pkgName="com.android.mms"/> <!--oppo message-->
+        <whitePkg pkgName="com.heytap.browser"/><!--oppo 浏览器-->
+
+
+        <!--top 三方应用-->
+        <whitePkg pkgName="com.spotify.music"/>
+        <whitePkg pkgName="com.android.chrome"/>
+        <whitePkg pkgName="com.facebook.appmanager"/>
+        <whitePkg pkgName="com.google.android.youtube"/>
+        <whitePkg pkgName="com.linkedin.android"/>
+        <whitePkg pkgName="com.whatsapp"/>
+        <whitePkg pkgName="com.snapchat.android"/>
+        <whitePkg pkgName="com.facebook.orca"/>
+        <whitePkg pkgName="for-tester"/>
+    </white-list>
+</filter-conf>

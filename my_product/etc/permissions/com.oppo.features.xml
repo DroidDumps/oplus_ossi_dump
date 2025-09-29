@@ -1,0 +1,25 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<!-- COLOR_EDIT.  add oppo.screen.hovering.support ;remove oppo.narrow.frame -->
+<permissions>
+    <!-- PengNan@CHG.BSP 2016/1/14, recover feature -->
+    <feature name="oppo.app2sd.disabled" />
+    <!-- Yinqi.Xiong@PSW.AD.Performance.Power, 2016/09/07, add for net wake up control: -->
+    <feature name="oppo.performance.power.netwake"  />
+    <!-- Runsheng.Pei@PSW.AD.Ams, 2017/05/15, add for control unnormal activity start frequecy.-->
+    <feature name="oplus.ams.act.freqcontrol" />
+    <!-- Junhao.Liang@PSW.AD.FaceRecognition.1070880, 2018/06/19, Add for closed eye unlock -->
+    <feature name="android.hardware.biometrics.face" />
+    <!-- shifan@bsp.tp, 2019/10/28, Add for black gesture -->
+    <feature name="oppo.black.gesture.proximitysensor.support"/>
+    <!-- xuan.zhou@Apps, 2019/11/18, add for support wake up arouse  -->
+    <feature name="oppo.black.gesture.wake.up.arouse.support" />
+    <feature name="oppo.support.single.partition" />
+    <!-- <feature name="oppo.proximity.tp.support" /> -->
+    <feature name="oppo.display.screen.defaultsmartmode" />
+    <!-- ZongYi.Huang@framework, 2020/09/16, Add for control center app display -->
+    <feature name="oppo.screen.hovering.support" />
+    <!-- Wenkan.Zhu@PSW.CN.WiFi.Network.internet.1800709, 2019/01/24,  Add for private feature -->
+    <feature name="oppo.wlan.privateDns.support" />
+    <!-- weixin.cao@Apps, 2020/11/25, add for childspace support -->
+    <feature name="oppo.childspace.support" />
+</permissions>

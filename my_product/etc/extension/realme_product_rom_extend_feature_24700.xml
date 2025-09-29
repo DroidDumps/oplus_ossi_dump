@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!--lightos start-->
+    <!--systemUI-->
+    <app_feature name="com.android.systemui.gauss_blur_disabled"/>
+    <app_feature name="com.android.systemui.pan_view_gauss_blur_disabled"/>
+    <app_feature name="com.android.systemui.disable_volume_blur"/>
+    <app_feature name="com.android.systemui.enable_gesture_hide"/>
+    <app_feature name="com.android.systemui.notification_limit_num"/>
+    <app_feature name="com.android.systemui.notification_limit_time"/>
+    <app_feature name="com.android.systemui.apply_light_os_qs_tile"/>
+    <app_feature name="com.android.systemui.gc_after_keyguard_exit"/>
+    <app_feature name="com.android.systemui.light_os"/>
+
+    <!--AOD-->
+    <app_feature name="com.android.systemui.spotify_aod_disable"/>
+    <!--notification-->
+    <app_feature name="com.oplus.notificationmanager.floating_window_reply_default_off"/>
+
+    <!--sidebar/floatass-->
+    <app_feature name="com.oplus.floatassistant.air_view_disable"/>
+    <app_feature name="com.oplus.floatassistant.assistive_ball_disable"/>
+    <app_feature name="com.oplus.floatassistant.single_view"/>
+    <app_feature name="com.oplus.smartsidebar.default.off"/>
+
+    <!--launcher-->
+    <app_feature name="com.android.launcher.light_weight_os"/>
+    <app_feature name="com.android.launcher.card_disabled"/>
+    <app_feature name="com.android.launcher.DRAW_MODE_APP_RANK_DISABLED"/>
+    <app_feature name="com.android.launcher.LAUNCH_APP_QUICK_SPEED"/>
+    <app_feature name="com.android.launcher.DISABLE_PAI_LAYOUT"/>
+    <app_feature name="athena.fastclear.from.launcher"/>
+    <app_feature name="com.android.launcher.LIVE_WALLPAPER_ENTRY_DISABLED"/>
+    <app_feature name="com.android.launcher.simple_mode_speed_dial_widget" args="boolean:true"/>
+    <app_feature name="com.android.launcher.CAMERA_PREOPEN_CLOSE"/>
+    <!--assistscreen-->
+    <!--<app_feature name="com.android.launcher.OVERLAY_DISABLED"/>-->
+
+    <!--wallpaper-->
+    <app_feature name="com.oplus.wallpapers.LIGHT_WEIGHT_OS_FUNC"/>
+    <app_feature name="com.android.wallpaper.livepicker.LIGHT_WEIGHT_OS_FUNC"/>
+
+    <!--clock-->
+    <app_feature name="com.oplus.alarmclock.light_weight_os"/>
+
+    <!--filemanager-->
+    <app_feature name="com.oplus.filemanager.light_os"/>
+
+    <!--gallery-->
+    <app_feature name="os.graphic.gallery.photolistview.senior_picked" args="boolean:false"/>
+    <app_feature name="os.graphic.gallery.photolistview.timeline_page_multi_view_switch" args="boolean:false"/>
+    <app_feature name="os.graphic.gallery.photoview.heycast" args="boolean:false"/>
+    <app_feature name="os.graphic.gallery.photoeditor.gif_synthesis" args="boolean:false"/>
+    <app_feature name="os.graphic.gallery.photoeditor.eliminate_pen" args="boolean:false"/>
+    <app_feature name="os.graphic.gallery.photoeditor.blurring" args="boolean:false"/>
+    <app_feature name="os.graphic.gallery.videoeditor.hightlight" args="boolean:false"/>
+    <app_feature name="os.graphic.gallery.supertextv1.ocr" args="boolean:false"/>
+    <app_feature name="os.graphic.gallery.supertextv1.convert_doc" args="boolean:false"/>
+    <app_feature name="os.graphic.gallery.aiidphoto" args="boolean:false"/>
+    <app_feature name="os.graphic.gallery.photoeditor.mosaic.privacy_protection_assistant" args="boolean:false"/>
+    <app_feature name="os.graphic.gallery.photolistview.map_page" args="boolean:false"/>
+    <app_feature name="os.graphic.gallery.supertextv2" args="boolean:false"/>
+    <app_feature name="os.graphic.gallery.photoview.thumb_line" args="boolean:false"/>
+
+    <!--startdrive-->
+    <!--<app_feature name="oplus.smartdrive.disable.smartdrive"/>-->
+
+    <!--onetrace-->
+    <app_feature name="os.tool.onetrace.thermal.ostats" args="boolean:false"/>
+    <app_feature name="os.tool.onetrace.thermal.detect" args="boolean:false"/>
+    <app_feature name="os.tool.onetrace.performance.ottrace" args="boolean:false"/>
+    <app_feature name="os.tool.onetrace.thermal.metric" args="boolean:false"/>
+    <app_feature name="os.tool.onetrace.performance.ood" args="boolean:false"/>
+
+    <!--Okiller-->
+    <app_feature name="athena.kill.light.os"/>
+    <app_feature name="athena.silence.reboot.support"/>
+
+    <!--Contacts-->
+    <app_feature name="os.contacts.insertcontacts.businesscard.disable"/>
+    <app_feature name="os.contacts.businesshall.disable"/>
+    <app_feature name="os.contacts.insertcontacts.qrcode.disable"/>
+
+    <!--mms-->
+    <app_feature name="os.mms.message.type.aim.disable"/>
+
+    <!--personalization-->
+    <app_feature name="os.personalization.other.fingerprint_animation.disable"/>
+
+    <!--bootreg-->
+    <app_feature name="com.oplus.bootreg.basic_os"/>
+    <app_feature name="com.oplus.bootreg.light_os_func"/>
+
+    <!--soundRecorder-->
+    <app_feature name="com.oplus.soundrecorder.lightos"/>
+
+    <!--gesture-->
+    <app_feature name="com.oplus.gesture.hide_somatosensory_function"/>
+
+    <!--screenrecorder-->
+    <app_feature name="com.oplus.screenrecorder.light_weight_os"/>
+    <!--lightos end-->
+
+    <!--others-->
+    <app_feature name="oppo.settings.disable.dynamic_notification_sound"/>
+    <app_feature name="com.android.systemui.charge_lizi_anim_disable"/>
+    <app_feature name="com.coloros.gamespace_package_share_notsupport" />
+    <app_feature name="com.coloros.gamespace_gameboard_notsupport" />
+    <app_feature name="com.coloros.gamespace_game_focus_mode_notsupport" />
+    <app_feature name="com.android.systemui.support.show_charging_wattage"/>
+    <app_feature name="com.android.systemui.volume_and_power_key_in_right"/>
+    <app_feature name="com.oplus.systemui.disable_system_seeding" />
+    <app_feature name="com.android.settings.move_dc_to_develop"/>
+
+    <app_feature name="feature.super_settings_smart_touch.support"/>
+    <app_feature name="os.synergy.unsupported.screencast.relay.smartremind"/>
+
+    <!-- Add the feature of GC after the first unlock -->
+    <app_feature name="com.android.launcher.gc_when_user_present"/>
+    <app_feature name="com.android.launcher.minimum_memory_support" args="boolean:true"/>
+
+    <!-- Add the feature to support batch region unlock -->
+    <app_feature name="com.oplus.lockassistant.support_region_batch_unlock"/>
+    <app_feature name="com.android.launcher.ENABLE_MIN_FLING_RATIO"/>
+
+    <app_feature name="com.coloros.games_support_wifi_signal"/>
+
+</extend_features>

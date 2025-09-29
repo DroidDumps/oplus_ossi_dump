@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>20240112</version>
+    <toggle>1</toggle>
+    <features>
+        <feature name="BindCore" enable="1">
+            <!-- big core index, start from 0 -->
+            <bigcore_id>6</bigcore_id>
+            <bigcore_id>7</bigcore_id>
+        </feature>
+        <feature name="OnlineAband" enable="1"/>
+        <feature name="hecate" enable="1"/>
+        <feature name="ovfr" enable="1">
+            <application name="com.google.android.youtube">
+                <scene type="Application">
+                    <action>
+                       <minFPS>48</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tencent.weishi">
+                <scene type="Application">
+                    <action>
+                       <minFPS>48</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="video.like">
+                <scene type="Application">
+                    <action>
+                       <minFPS>48</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.smile.gifmaker">
+                <scene type="Application">
+                    <action>
+                       <minFPS>48</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.zhiliaoapp.musically">
+                <scene type="Application">
+                    <action>
+                       <minFPS>48</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.ss.android.ugc.aweme">
+                <scene type="Application">
+                    <action>
+                       <minFPS>48</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tencent.qqlive">
+                <scene type="Application">
+                    <action>
+                       <minFPS>48</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.ss.android.ugc.trill">
+                <scene type="Application">
+                    <action>
+                       <minFPS>48</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.coloros.video">
+                <scene type="Application">
+                    <action>
+                       <minFPS>48</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.youku.phone">
+                <scene type="Application">
+                    <action>
+                       <minFPS>48</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.qiyi.video">
+                <scene type="Application">
+                    <action>
+                       <minFPS>48</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.mxtech.videoplayer.ad">
+                <scene type="Application">
+                    <action>
+                       <minFPS>48</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="tv.danmaku.bili">
+                <scene type="Application">
+                    <action>
+                       <minFPS>48</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+        </feature>
+        <feature name="OplusDEE" enable="1">
+            <globalSVI>enable</globalSVI>
+            <application name="com.oplus.engineermode">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>0</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.coloros.video">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>0</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.google.android.apps.photos">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>0</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.android.camera2">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>0</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.oplus.camera">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>0</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.coloros.gallery3d">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>0</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.oppo.daydreamvideo">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>0</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+        </feature>
+        <feature name="SchedAssist" enable="1">
+            <GpuBoostConfig enable="1" mid="0.4" high="0.8" timeout="0"> <!--默认配置-->
+                <application>
+                    <!--内置应用-->
+                    <item name="com.android.launcher" timeout="50"/><!--桌面-->
+                    <item name="com.android.settings" timeout="50"/><!--设置-->
+                    <item name="com.android.systemui" timeout="50"/><!--systemUI-->
+                    <item name="com.oplus.camera" timeout="50"/><!--相机-->
+                    <item name="com.android.wallpaper.livepicker:wallpaperService" timeout="50"/><!--壁纸-->
+                    <item name="com.coloros.gallery3d" timeout="50"/><!--相册-->
+                    <item name="com.google.android.dialer" timeout="50"/><!--电话-->
+                    <item name="com.google.android.apps.messaging" timeout="50"/><!--短信-->
+                    <item name="com.coloros.weather2" timeout="50"/><!--天气-->
+                    <item name="com.oplus.themestore" timeout="50"/><!--主题商店-->
+                    <item name="com.coloros.filemanager" timeout="50"/><!--文件管理-->
+                    <item name="com.heytap.market" timeout="50"/><!--应用商店-->
+                    <!--外销应用-->
+                    <item name="com.google.android.googlequicksearchbox:search" timeout="50"/><!--quicksearch-->
+                    <item name="com.google.android.youtube" timeout="50"/><!--youtube-->
+                    <item name="com.google.android.apps.maps" timeout="50"/><!--googleMap-->
+                    <item name="com.whatsapp" timeout="50"/><!--whatsapp-->
+                    <item name="com.android.chrome" timeout="50"/><!--chrome-->
+                    <item name="com.snapchat.android" timeout="50"/><!--snapchat-->
+                    <item name="com.instagram.android" timeout="50"/><!--instagram-->
+                    <item name="com.ss.android.ugc.trill" timeout="50"/><!--Tik Tok-->
+                    <item name="org.telegram.messenger" timeout="50"/><!--telegram-->
+                    <item name="com.facebook.katana" timeout="50"/><!--facebook-->
+                    <item name="com.facebook.orca" timeout="50"/><!--Messenger – Text and Video Chat for Free-->
+                    <item name="com.phonepe.app" timeout="50"/><!--PhonePe-->
+                    <item name="com.flipkart.android" timeout="50"/><!--Flipkart Online Shopping App-->
+                    <item name="in.amazon.mShop.android.shopping" timeout="50"/><!--Amazon India Online Shopping and Payments-->
+                    <item name="cn.wps.moffice_eng" timeout="50"/><!--WPS Office-->
+                    <item name="com.netflix.mediaclient" timeout="50"/><!--Netflix-->
+                    <item name="com.jio.media.ondemand" timeout="50"/><!--JioCinema: Movies TV Originals-->
+                    <item name="in.startv.hotstar" timeout="50"/><!--Hotstar-->
+                    <!--内销应用-->
+                    <item name="com.tencent.mm" timeout="50"/><!--微信-->
+                    <item name="com.xunmeng.pinduoduo" timeout="50"/><!--拼多多-->
+                    <item name="com.ss.android.ugc.aweme" timeout="50"/><!--抖音-->
+                    <item name="com.eg.android.AlipayGphone" timeout="50"/><!--支付宝-->
+                    <item name="com.smile.gifmaker" timeout="50"/><!--快手-->
+                    <item name="com.taobao.taobao" timeout="50"/><!--淘宝-->
+                    <item name="com.baidu.searchbox" timeout="50"/><!--百度-->
+                    <item name="com.autonavi.minimap" timeout="50"/><!--高德地图-->
+                    <item name="com.jingdong.app.mall" timeout="50"/><!--京东-->
+                    <item name="com.tencent.mobileqq" timeout="50"/><!--QQ-->
+                    <item name="com.tencent.qqlive" timeout="50"/><!--腾讯视频-->
+                    <item name="com.tencent.mtt" timeout="50"/><!--QQ浏览器-->
+                    <item name="com.ss.android.article.news" timeout="50"/><!--今日头条-->
+                    <item name="com.dragon.read" timeout="50"/><!--番茄免费小说-->
+                    <item name="com.baidu.BaiduMap" timeout="50"/><!--百度地图-->
+                    <item name="com.youku.phone" timeout="50"/><!--优酷视频-->
+                    <item name="com.sankuai.meituan" timeout="50"/><!--美团-->
+                    <item name="com.sina.weibo" timeout="50"/><!--微博-->
+                    <item name="com.ss.android.article.video" timeout="50"/><!--西瓜视频-->
+                    <item name="com.xingin.xhs" timeout="50"/><!--小红书-->
+                    <item name="com.qiyi.video" timeout="50"/><!--爱奇艺-->
+                    <item name="com.wuba" timeout="50"/><!--58同城-->
+                    <item name="tv.danmaku.bili" timeout="50"/><!--哔哩哔哩-->
+                    <item name="com.UCMobile" timeout="50"/><!--UC浏览器-->
+                    <item name="com.lemon.lv" timeout="50"/><!--剪映-->
+                </application>
+                <client>
+                    <item count="1" enable="1" mid="0.5" high="1.1" timeout="50"/><!--client成layer个数为1时的配置-->
+                </client>
+            </GpuBoostConfig>
+        </feature>
+    </features>
+</filter-conf>
