@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsys-config>
+    <plugins>
+        <plugin name="com.oplus.subsys.OcloudPlugin" module="ocloud" loaded="false"
+            path="/system_ext/priv-app/OcloudApp/OcloudApp.apk" />
+    </plugins>
+    <components>
+        <component name="com.oplus.subsys.SubsysInterfaceLoader" category = "base"/>
+        <component name="com.oplus.virtualcomm.VirtualCommServiceLoader" category="base"/>
+        <component name="com.oplus.tai.ModelRunner" category="base"/>
+        <component name="com.oplus.tcs.CloudSyncLoader" category="base"/>
+        <component name="com.oplus.netlinkutil.NetlinkUtilLoader" category="qti"/>
+        <component name="com.oplus.diagnose.DiagnoserLoader" category = "base"/>
+        <component name="com.oplus.scene.SceneService" category = "base"/>
+        <component name="com.oplus.atom.AtomAppManagerLoader" category = "base"/>
+        <component name="com.oplus.call.CallManagerLoader" category="base"/>
+        <component name="com.oplus.reg.RegManagerLoader" category="base"/>
+        <component name="com.oplus.data.DataManagerLoader" category="base"/>
+
+        <!--Important!!! ADD COMPONENT ABOVE ModuleManagerLoader which is the lastest order of all component by design-->
+        <component name="com.oplus.module.ModuleManagerLoader" category="base"/>
+    </components>
+    <cluster>
+        <module name="com.oplus.clusters.tgs.GuardSystemManager" category="base"></module>
+        <module name="com.oplus.subsys.omacp.OmacpExecuter" category="base"></module>
+        <module name="com.oplus.dcdcSleep.UpdateDcdcSleepState" category="base"></module>
+        <module name="com.oplus.cluster.rfdesense.RFDesenseManager" category="qti"></module>
+        <module name="com.oplus.cluster.rfdesense.RFDesenseManager" category="mtk"></module>
+        <module name="com.oplus.rus.RusServer" category="base"></module>
+        <module name="com.oplus.ustCarrierConfig.UstCarrierConfig" category="base"></module>
+        <module name="com.oplus.ustCarrierConfig.UstSimLock" category="base"></module>
+        <module name="com.oplus.msimsubmode.MsimSubModeManager" category="base"></module>
+        <module name="com.oplus.chinaroaming.ChinaRoamingControl" category="base"></module>
+        <module name="com.oplus.extremecomm.ExtremeCommService" category="base"></module>
+        <module name="com.oplus.wifi.WifiSarService" category="base"></module>
+        <module name="com.oplus.hardware.OplusFoldingAngleSarManager" category="base"></module>
+        <module name="com.oplus.cluster.aol.AolSceneNotifer" category="base"></module>
+        <module name="com.oplus.rus.BwpRusControlLoader" category="base"></module>
+        <module name="com.oplus.rus.NrcaRusControlLoader" category="base"></module>
+        <module name="com.oplus.call.CallControl" category="base"></module>
+        <module name="com.oplus.engineer.NetworkFloatBallLoader" category="base"></module>
+        <module name="com.oplus.cluster.AntOp.AntOptimization" category="qti"></module>
+        <module name="com.oplus.cluster.omcf.OmcfService" category="qti"></module>
+        <module name="com.oplus.cluster.ustvt.UstVtController" category="qti"></module>
+        <module name="com.oplus.cluster.modemDumpUtil.ModemDumpStateService" category="qti"></module>
+        <module name="com.oplus.cluster.modemDumpUtil.ModemDumpFilePackager" category="qti"></module>
+        <module name="com.oplus.telephony.QtiRadioFrequency" category="qti"></module>
+        <module name="com.oplus.diagnose.DiagnoseService" category="qti"></module>
+        <module name="com.oplus.cota.MdmFeatureUpdate" category="qti"></module>
+        <module name="com.oplus.call.GameSpaceMtOptimization" category="qti"></module>
+        <module name="com.oplus.fold.FoldStateTracker" category = "qti"></module>
+        <module name="com.oplus.coex.CoexRfService" category="base"></module>
+        <module name="com.oplus.imsrtpduplicate.ImsRtpDuplicator" category="qti"></module>
+        <module name="com.oplus.rfpowerboost.RFPowerBoostManager" category="base"></module>
+        <!-- <module name="com.oplus.guard.TestGuard" category="base"></module> -->
+        <module name="com.oplus.rfevent.RfEventManager" category="base"></module>
+    </cluster>
+    <aiservices>
+        <service name="com.oplus.tai.wifiqoe.WifiAppQoeModel" path="/system_ext/app/SubsysPlugins_plugin_WifiQoe/WifiQoe.apk" package="com.oplus.tai.wifiqoe" detectName="wifi_qoe"/>
+    </aiservices>
+    <tcsservices>
+        <service name="com.oplus.tcs.cybersense.CellDataSyncService"/>
+        <service name="com.oplus.tcs.extremecomm.ExtremeCommSyncService"/>
+        <service name="com.oplus.tcs.imsrtp.ImsRtpOpushService"/>
+        <service name="com.oplus.tcs.concertdetect.ConcertDetectSyncService"/>
+    </tcsservices>
+</subsys-config>
