@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sixth_wrapper_config>
+    <config_element name="hpf" enable="0" frq1="109" frq2="53" chiptype1="9" chiptype2="-1"
+        description="set hpf req"/>
+    <config_element name="vdd" enable="1" battery_node="/sys/devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt6358-gauge/power_supply/mtk-gauge/voltage_now" 
+        vdd_step="10000" description="read vdd and set ad_hoc gain, vdd_step(mv)">
+    </config_element> 
+    <config_element name="timer_cfg" enable="0" description="turn on/off timer"/>
+    <config_element name="debug_cfg" enable="0" description="turn on/off debug msg"/>
+    <config_element name="pvdd_limit_cfg" enable="0" description="turn on/off pvdd limit"/>
+    <config_element name="update_param_cfg" cnt_num="12" description="update param count frame num for fade in or fade out"/>
+</sixth_wrapper_config>

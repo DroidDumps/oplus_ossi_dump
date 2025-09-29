@@ -1,0 +1,44 @@
+[
+    {
+        "brand":"realme",
+        "project":"24700",
+        "name":"ru",
+        "product":"RMX3941RU",
+        "device":"RE607CL1",
+        "model":"RMX3941",
+        "first_api_level" : "34",
+        "manufacturer":"realme"
+    },
+    {
+        "brand":"realme",
+        "project":"24700",
+        "name":"eea",
+        "product":"RMX3941EEA",
+        "device":"RE607CL1",
+        "model":"RMX3941",
+        "first_api_level" : "34",
+        "rsa_level" : "R4T2",
+        "manufacturer":"realme"
+    },
+    {
+        "brand":"realme",
+        "project":"24700",
+        "name":"tr",
+        "product":"RMX3941TR",
+        "device":"RE607CL1",
+        "model":"RMX3941",
+        "first_api_level" : "34",
+        "manufacturer":"realme"
+    },
+    {
+        "brand":"realme",
+        "project":"24700",
+        "name":"default",
+        "product":"RMX3941",
+        "rsa_level" : "R4T2",
+        "device":"RE607CL1",
+        "model":"RMX3941",
+        "first_api_level" : "34",
+        "manufacturer":"realme"
+    }
+]

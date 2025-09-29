@@ -1,0 +1,5 @@
+<permissions>
+     <!-- yu.wu@RM.Camera, 2020/06/19, Add for camera anti-shake support -->
+     <feature name="oplus.camera.antishake.support" />
+     <feature name="oplus.camera.disablevibrateincall.support" />
+</permissions>
